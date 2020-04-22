@@ -2,9 +2,9 @@ body {
     /* image url
     Book https://c-ssl.duitang.com/uploads/item/201702/19/20170219024119_ESRrJ.jpeg
     */
-    background-image: url(https://c-ssl.duitang.com/uploads/item/201702/19/20170219024119_ESRrJ.jpeg);
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-mu13-ake5886-ake-l.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1600&s=89cebe33fb179e148e5e8b407e348c45);
     background-color: #493829; /* In case the background image does not work */
-    background-size: auto;
+    background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
