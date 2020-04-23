@@ -8,9 +8,9 @@ body {
 }
 
 form {
-    width: 30%;
+    width: 40%;
     margin: 100px;
-    background-color: darkslategray;
+    color: darkslategray;
     border-radius: 5px;
     margin-top: 80px;
 }
