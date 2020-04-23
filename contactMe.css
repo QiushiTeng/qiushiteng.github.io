@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-mu13-ake5886-ake-l.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1600&s=89cebe33fb179e148e5e8b407e348c45);
+    background-color: lightslategrey; /* In case the background image does not work */
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form {
+    width: 30%;
+    margin: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.form-group, .form-check, .button-group {
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn-group {
+    width: 45%;
+    margin-bottom: 40px;
+}
