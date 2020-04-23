@@ -44,7 +44,6 @@ body {
 
 .image {
     filter: drop-shadow(0 0 5px black);
- 
     height: 100%;
     width: 100%;
 }
@@ -72,13 +71,20 @@ h2 em {
 
 a {
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 90px;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .title {
     font-size: 30px;
-    color: linen;
+    color: #022D36;
+    background-color: linen;
     text-decoration: none;
+    border-radius: 2px;
+    padding: 0 8px;
 }
 
 .container1:focus,
