@@ -8,11 +8,16 @@ body {
 }
 
 form {
-    width: 40%;
+    width: 35%;
     margin: 100px;
-    color: darkslategray;
+    color: linen;
+    background-color: slategray;
     border-radius: 5px;
     margin-top: 80px;
+}
+
+label {
+    color: linen;
 }
 
 .form-group, .form-check, .button-group {
