@@ -13,33 +13,38 @@
     <title>Contact Me</title>
   </head>
   <body>
+    <header>
+      <h1>Contact Me</h1>
+  </header>
+  <div role="main">
     <form>
-        <div class="title">
-          <h1>Contact Me</h1>
+      <div class="title">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="form-group">
+        <label for="name">Name *</label>
+        <input type="name" class="form-control" id="name" aria-label="name">
+      </div>
+      <div class="form-group">
+        <label for="email1">Email *</label>
+        <input type="email" class="form-control" id="email" aria-label="email">
+      </div>
+      <div class="form-group">
+        <label for="textarea">Submit your message:</label>
+        <textarea class="form-control" id="textarea" rows="3"></textarea>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check">
+        <label class="form-check-label" for="check">Sign up for the newsletter</label>
+      </div>
+      <div class="text-center">
+        <div class="btn-group group1">
+          <button type="button" class="btn btn-light">Submit</button>
         </div>
-        <div class="form-group">
-          <label for="name">Name *</label>
-          <input type="name" class="form-control" id="name" aria-describedby="nameHelp">
+        <div class="btn-group group2">
+          <button type="button" class="btn btn-light">Reset</button>
         </div>
-        <div class="form-group">
-          <label for="email1">Email *</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-        </div>
-        <div class="form-group">
-          <label for="textarea">Submit your message:</label>
-          <textarea class="form-control" id="textarea" rows="3"></textarea>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="check">
-          <label class="form-check-label" for="check">Sign up for the newsletter</label>
-        </div>
-        <div class="text-center">
-          <div class="btn-group group1">
-            <button type="button" class="btn btn-primary">Submit</button>
-          </div>
-          <div class="btn-group group2">
-            <button type="button" class="btn btn-light">Reset</button>
-          </div>
-        </div>
-      </form>
+      </div>
+    </form>
+  </div>
   </body>

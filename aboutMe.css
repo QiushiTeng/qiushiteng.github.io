@@ -1,27 +1,36 @@
 body {
-    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-mu13-ake5886-ake-l.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1600&s=89cebe33fb179e148e5e8b407e348c45);
-    background-color: lightslategrey; /* In case the background image does not work */
+    background-image: url(https://cdn.hipwallpaper.com/i/25/66/aEOoKm.jpg);
+    background-color: linen; /* In case the background image does not work */
     background-size: cover;
     background-position: left;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1 {
-    margin-top: 100px;
-    margin-left: 100px;
+    align-self: left;
+    margin-left: 6%;
+    margin-top: 2%;
     color: #022D36;
     font-weight: bold;
     text-decoration: underline;
     filter: drop-shadow(0 0 10px grey);
 }
 
-.row {
+.row-1 {
     width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.row-2 {
+    height: 40%;
 }
 
 .card-1 {
-    width: 70%;
+    width: 60%;
     margin-bottom: 20px;
     border-radius: 5px;
     filter: drop-shadow(0 0 10px grey);
@@ -29,7 +38,7 @@ h1 {
 
 .card-2 {
     margin-left: 50px;
-    margin-top: 80px;
+    margin-top: 10px;
     width: 60%;
     border-radius: 5px;
     filter: drop-shadow(0 0 10px grey);
@@ -48,12 +57,50 @@ h1 {
     filter: drop-shadow(0 0 5px grey);
 }
 
-.col-4 {
+.col-5 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.card-1 .col-4 .card-text {
-    padding-left: 30px;
+.card-1 .col-5 .card-text {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 414px) {
+
+    h1 {
+        font-size: 20px;
+    }
+  .card-1 {
+    width: 65%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 10px grey);
+  }
+
+  .card-2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60%;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 10px grey);
+  }
+
+  .card-3 {
+    width: 55%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 10px grey);
+  }
+
+  .card-text {
+    color: #022D36;
+    font-size: 10px;
+    filter: drop-shadow(0 0 5px grey);
+  }
+
+  .card-1 .col-5 .card-text {
+    padding-left: 5px;
+}
 }

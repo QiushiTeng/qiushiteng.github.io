@@ -1,0 +1,75 @@
+body {
+    background-image: url(https://cdn.hipwallpaper.com/i/25/66/aEOoKm.jpg);
+    background-color: linen; /* In case the background image does not work */
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    align-self: left;
+    margin-left: 6%;
+    margin-top: 4%;
+    color: #022D36;
+    font-weight: bold;
+    text-decoration: underline;
+    filter: drop-shadow(0 0 10px grey);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    width: 700px;
+    filter: drop-shadow(0 0 10px black);
+    margin-bottom: 30px;
+}
+
+.card-text {
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #022D36;
+
+}
+
+@media screen and (max-width: 768px) {
+    .card-img {
+        width: 500px;
+        filter: drop-shadow(0 0 10px black);
+    }
+    
+    .card-text {
+        width: 500px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: #022D36;
+    
+    }
+}
+
+@media screen and (max-width: 414px) {
+h1 {
+    font-size: 15px;
+}
+
+    .card-img {
+        width: 300px;
+        filter: drop-shadow(0 0 10px black);
+    }
+    
+    .card-text {
+        width: 300px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: #022D36;
+    
+    }
+}

@@ -1,12 +1,12 @@
 body {
     /* image url
-    https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-mu13-ake5886-ake-l.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1600&s=89cebe33fb179e148e5e8b407e348c45
+    https://cdn.hipwallpaper.com/i/25/66/aEOoKm.jpg
     */
-    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-mu13-ake5886-ake-l.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1600&s=89cebe33fb179e148e5e8b407e348c45);
-    background-color: lightslategrey; /* In case the background image does not work */
+    background-image: url(https://cdn.hipwallpaper.com/i/25/66/aEOoKm.jpg);
+    background-color: linen; /* In case the background image does not work */
     background-size: cover;
     background-position: left;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
