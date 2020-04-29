@@ -50,12 +50,27 @@ label {
     filter: drop-shadow(0 0 3px grey);
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: linen;
+    color: black;
+    text-align: right;
+}
+
+footer em {
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
     form {
         width: 90%;
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
